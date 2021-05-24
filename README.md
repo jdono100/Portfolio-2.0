@@ -2,8 +2,7 @@
 
 ## Deployed App
 
-(☞ﾟヮﾟ)☞
-[Check it out here!](https://jdono100.github.io/Week-08-Portfolio-2.0/)
+(☞ﾟヮﾟ)☞ [Check it out here!](https://jdono100.github.io/Week-08-Portfolio-2.0/)
 
 ## Description
 
@@ -29,6 +28,6 @@ And this screenshot shows my updated portfolio made 6 weeks later:
 
 ## Links
 
-☜(ﾟヮﾟ☜)
 [My Github](https://github.com/jdono100)
+
 [My LinkedIn](https://www.linkedin.com/in/jared-donovan-329712207/)
