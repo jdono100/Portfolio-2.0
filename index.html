@@ -22,7 +22,7 @@
                 </div>
                 <div class="page-indicator">
                     <div class="container center-align col s4">
-                        <h5 id="page-text">HOME</h5>
+                        <a href="./index.html"><h5 id="page-text">HOME</h5></a>
                     </div>
                 </div>
                 <div class="social-links">
@@ -34,10 +34,22 @@
                 </div>
             </div>
         </nav>
+        <ul id="slide-out" class="sidenav">
+            <li><div class="row left-align no-marg-bot">
+                <a href="#" class="sidenav-close btn-floating" id="nav-close-btn"><i class="fas fa-times"></i></a>
+            </div></li>
+            <li><div class="center-align">
+                <img src="./assets/images/headshot.png" alt="Jared Donovan photo" class="circle nav-img">
+            </div></li>
+            <li></li>
+        </ul>
     </header>
 
     <main>
-
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="./assets/images/headshot.png"></a>
+            <a class="carousel-item" href="#two!"><img src="./assets/images/week2portfolioSC.png"></a>
+        </div>
     </main>
 
     <footer>
@@ -52,6 +64,9 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./assets/js/function.js"></script>
-
+    <script>$(document).ready(function() {
+        $(".sidenav").sidenav();
+        $(".carousel").carousel();
+    })</script>
 </body>
 </html>
