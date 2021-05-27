@@ -46,9 +46,72 @@
     </header>
 
     <main>
-        <div class="carousel">
-            <a class="carousel-item" href="#one!"><img src="./assets/images/headshot.png"></a>
-            <a class="carousel-item" href="#two!"><img src="./assets/images/week2portfolioSC.png"></a>
+        <div class="container">
+            <div class="row center-align topText">
+                <h2>Jared Donovan</h2>
+                <h4 class="flow-text">is a web development student at Northwestern University</h4>
+            </div>
+            <div class="divider"></div>
+            <div class="row portfolio">
+                <h3 class="flow-text">Here are some of my past projects:</h3>
+                <div class="projectsDiv">
+                    <div class="row">
+                        <div class="card col s12 m6">
+                            <div class="card-image center">
+                                <div class="carousel">
+                                    <a class="carousel-item" href="#"><img src="./assets/images/price-tracker-ss1.png" class="responsive-img" alt="TCG Price Tracker screencap 1"></a>
+                                    <a class="carousel-item" href="#"><img src="./assets/images/price-tracker-ss2.png" class="responsive-img" alt="TCG Price Tracker screencap 2"></a>
+                                    <a class="carousel-item" href="#"><img src="./assets/images/price-tracker-ss3.png" class="responsive-img" alt="TCG Price Tracker screencap 3"></a>
+                                    <a class="carousel-item" href="#"><img src="./assets/images/price-tracker-ss4.png" class="responsive-img" alt="TCG Price Tracker screencap 4"></a>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator">Pokémon TCG Price Tracker<i class="material-icons right">more_vert</i></span>
+                                <p><a href="https://project01-tcg-price-tracker.github.io/TCG_Price_Tracker/">Deployed app on Github Pages</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title">Pokémon TCG Price Tracker<i class="material-icons right">close</i></span>
+                                <p>Our first big project was a price tracker that searches Pokémon trading cards and keeps track of their price.</p>
+                                <p>My role was the front-end lead but I helped write the back-end for the individual card page and other places.</p>
+                                <p>It features a favorites list using local storage, and clicking on a card's art after you search it brings up an individual card page that can be shared.</p>
+                                <p>There is also a cryptocurrency conversion that converts the price of the card in USD to a selection of popular cryptocurrencies.</p>
+                                <p><a href="https://github.com/Project01-TCG-Price-Tracker/TCG_Price_Tracker" target="_blank">Github Repo</a></p>
+                            </div>
+                        </div>
+                        <div class="card col s12 m6">
+                            <div class="card-image center">
+                                <div class="carousel">
+                                    <a href="#" class="carousel-item"><img src="./assets/images/weather_db_sc1.png" alt="weather dashboard screencap 1" class="responsive-img"></a>
+                                    <a href="#" class="carousel-item"><img src="./assets/images/weather_db_sc3.png" alt="weather dashboard screencap 1" class="responsive-img"></a>
+                                    <a href="#" class="carousel-item"><img src="./assets/images/weather_db_sc2.png" alt="weather dashboard screencap 1" class="responsive-img"></a>
+                                    <a href="#" class="carousel-item"><img src="./assets/images/weather_db_sc4.png" alt="weather dashboard screencap 1" class="responsive-img"></a>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator">Weather Dashboard with Forecast<i class="material-icons right">more_vert</i></span>
+                                <p><a href="https://jdono100.github.io/06-Weather-Dashboard/" target="_blank">Deployed app on Github Pages</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <div class="card-title">Weather Dashboard<i class="material-icons right">close</i></div>
+                                <p>This assignment was to make a simple weather dashboard that uses API calls to get weather data to append to the page.</p>
+                                <p>My dashboard is mobile/tablet optimized and the weather data is sourced using calls to <a href="https://openweathermap.org/api" target="_blank">OpenWeatherAPI</a>.</p>
+                                <p>It uses local storage to store the text input last searched and a clear button to empty the search list if it gets too long.</p>
+                                <p><a href="https://github.com/jdono100/06-Weather-Dashboard" target="_blank">Github Repo</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="row aboutMeAndContact">
+                <h3 class="flow-text">More about me and contact info:</h3>
+                <div class="col s6">
+
+                </div>
+                <div class="col s6">
+                    
+                </div>
+            </div>
         </div>
     </main>
 
@@ -64,9 +127,5 @@
     </script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
     <script src="./assets/js/function.js"></script>
-    <script>$(document).ready(function() {
-        $(".sidenav").sidenav();
-        $(".carousel").carousel();
-    })</script>
 </body>
 </html>
