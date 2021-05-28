@@ -13,27 +13,31 @@
 <body>
 
     <header>
-        <nav class="grey lighten-1">
-            <div class="row">
-                <div class="sidenav-button">
-                    <div class="container left-align col s4">
-                        <a href="" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <div class="navbar-fixed">
+            <nav class="grey lighten-1">
+                <div class="nav-wrapper">
+                    <div class="row">
+                        <div class="sidenav-button">
+                            <div class="container left-align col s4">
+                                <a href="" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+                            </div>
+                        </div>
+                        <div class="page-indicator">
+                            <div class="container center-align col s4">
+                                <a href="./index.html"><h5 id="page-text">HOME</h5></a>
+                            </div>
+                        </div>
+                        <div class="social-links">
+                            <div class="container right-align col s4">
+                                <a href="https://github.com/jdono100" class="link"><i class="fab fa-github"></i></a>
+                                <a href="https://www.linkedin.com/in/jared-donovan-329712207/" class="link"><i class="fab fa-linkedin"></i></a>
+                                <a href="https://twitter.com/jaredonovan" class="link"><i class="fab fa-twitter"></i></a>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div class="page-indicator">
-                    <div class="container center-align col s4">
-                        <a href="./index.html"><h5 id="page-text">HOME</h5></a>
-                    </div>
-                </div>
-                <div class="social-links">
-                    <div class="container right-align col s4">
-                        <a href="https://github.com/jdono100" class="link"><i class="fab fa-github"></i></a>
-                        <a href="https://www.linkedin.com/in/jared-donovan-329712207/" class="link"><i class="fab fa-linkedin"></i></a>
-                        <a href="https://twitter.com/jaredonovan" class="link"><i class="fab fa-twitter"></i></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
+            </nav>
+        </div>
         <ul id="slide-out" class="sidenav">
             <li><div class="row left-align no-marg-bot">
                 <a href="#" class="sidenav-close btn-floating" id="nav-close-btn"><i class="fas fa-times"></i></a>
@@ -50,6 +54,14 @@
             <div class="row center-align topText">
                 <h2>Jared Donovan</h2>
                 <h4 class="flow-text">is a web development student at Northwestern University</h4>
+            </div>
+            <div class="divider"></div>
+            <div class="row aboutMe">
+                <div class="col s12 right-align">
+                    <h3 class="flow-text"><i class="left fas fa-laptop-code"></i>Passion for software & web development</h3>
+                    <h3 class="flow-text"><i class="left fas fa-city"></i>from Chicago, Illinois</h3>
+                    <h3 class="flow-text"><i class="left fas fa-birthday-cake"></i>born May 28th, 1999</h3>
+                </div>
             </div>
             <div class="divider"></div>
             <div class="row portfolio">
@@ -92,25 +104,61 @@
                                 <p><a href="https://jdono100.github.io/06-Weather-Dashboard/" target="_blank">Deployed app on Github Pages</a></p>
                             </div>
                             <div class="card-reveal">
-                                <div class="card-title">Weather Dashboard<i class="material-icons right">close</i></div>
+                                <span class="card-title">Weather Dashboard<i class="material-icons right">close</i></span>
                                 <p>This assignment was to make a simple weather dashboard that uses API calls to get weather data to append to the page.</p>
                                 <p>My dashboard is mobile/tablet optimized and the weather data is sourced using calls to <a href="https://openweathermap.org/api" target="_blank">OpenWeatherAPI</a>.</p>
-                                <p>It uses local storage to store the text input last searched and a clear button to empty the search list if it gets too long.</p>
+                                <p>It uses local storage to store the text input last searched and a clear button to empty the search list if it gets too long. All work was done by me.</p>
                                 <p><a href="https://github.com/jdono100/06-Weather-Dashboard" target="_blank">Github Repo</a></p>
+                            </div>
+                        </div>
+                        <div class="card col s12 m6">
+                            <div class="card-image center">
+                                <div class="carousel">
+                                    <a href="#" class="carousel-item"><img src="./assets/images/coding-quiz-sc1.png" alt="Coding Quiz screencap 1" class="responsive-img"></a>
+                                    <a href="#" class="carousel-item"><img src="./assets/images/coding-quiz-sc2.png" alt="Coding Quiz screencap 2" class="responsive-img"></a>
+                                    <a href="#" class="carousel-item"><img src="./assets/images/coding-quiz-sc3.png" alt="Coding Quiz screencap 3" class="responsive-img"></a>
+                                    <a href="#" class="carousel-item"><img src="./assets/images/coding-quiz-sc4.png" alt="Coding Quiz screencap 4" class="responsive-img"></a>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator">HTML/CSS/JavaScript Coding Quiz<i class="material-icons right">more_vert</i></span>
+                                <p><a href="https://jdono100.github.io/Week-04-Coding-Quiz/" target="_blank">Deployed app on Github Pages</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title">Coding Quiz<i class="material-icons right">close</i></span>
+                                <p>A ~20 question coding quiz involving that keeps score and a high scores list. It covers basic HTML, CSS, and JavaScript.</p>
+                                <p>I created multiple JS/HTML files for the endscreen and playing functionality and used local storage to keep track of the high scores.</p>
+                                <p>It also features randomized questions and it doesn't repeat them, it is also timed to add challenge to the quiz. All work was done by me.</p>
+                                <p><a href="https://github.com/jdono100/Week-04-Coding-Quiz" target="_blank">Github Repo</a></p>
+                            </div>
+                        </div>
+                        <div class="card col s12 m6">
+                            <div class="card-image center">
+                                <div class="carousel">
+                                    <a href="#" class="carousel-item"><img src="./assets/images/day-scheduler-sc1.png" alt="Day Planner screencap 1" class="responsive-img"></a>
+                                    <a href="#" class="carousel-item"><img src="./assets/images/day-scheduler-sc2.png" alt="Day Planner screencap 2" class="responsive-img"></a>
+                                    <a href="#" class="carousel-item"><img src="./assets/images/day-scheduler-sc3.png" alt="Day Planner screencap 3" class="responsive-img"></a>
+                                    <a href="#" class="carousel-item"><img src="./assets/images/day-scheduler-sc4.png" alt="Day Planner screencap 4" class="responsive-img"></a>
+                                </div>
+                            </div>
+                            <div class="card-content">
+                                <span class="card-title activator">Work Day Scheduler<i class="material-icons right">more_vert</i></span>
+                                <p><a href="https://jdono100.github.io/Week-05-Day-Planner/">Deployed app on Github Pages</a></p>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title">Day Scheduler<i class="material-icons right">close</i></span>
+                                <p>This project is a single page day planner that uses local storage to save information into labelled timeblocks.</p>
+                                <p>It uses <a href="https://momentjs.com/">Moment.js</a> to display the date/time and <a href="https://getbootstrap.com/">Bootstrap</a> for the front-end framework.</p>
+                                <p>The timeblock backgrounds change color depending on if they're in the past (grey), the current hour (red), or the future(green). All work was done by me.</p>
+                                <p><a href="https://github.com/jdono100/Week-05-Day-Planner">Github Repo</a></p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="divider"></div>
-            <div class="row aboutMeAndContact">
-                <h3 class="flow-text">More about me and contact info:</h3>
-                <div class="col s6">
+            <div class="row contact">
 
-                </div>
-                <div class="col s6">
-                    
-                </div>
             </div>
         </div>
     </main>
