@@ -1,4 +1,12 @@
 /* Personal Styles */
+html {
+    overflow:   auto;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; /* make scrollbar transparent */
+}
+
 .link {
     margin: 0.5em;
 }
@@ -9,6 +17,12 @@
 }
 #nav-close-btn {
     margin: 0.5em;
+}
+.topText {
+    height: 425px;
+}
+.bottomDivider {
+    margin-bottom: 2em;
 }
 
 /* Materialize Styling Changes */

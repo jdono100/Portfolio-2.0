@@ -24,6 +24,7 @@ The following image shows the portfolio I made during week 2 of bootcamp:
 
 And this screenshot shows my updated portfolio made 6 weeks later:
 
+![Screenshot of week 8 portfolio](./assets/images/week8portfolioSC.png)
 
 
 ## Links
@@ -31,3 +32,5 @@ And this screenshot shows my updated portfolio made 6 weeks later:
 [My Github](https://github.com/jdono100)
 
 [My LinkedIn](https://www.linkedin.com/in/jared-donovan-329712207/)
+
+[Deployed App](https://jdono100.github.io/Week-08-Portfolio-2.0/)
